@@ -56,7 +56,7 @@ p{
 }*/
 
 .logo{
-	padding:80px;
+	padding:4.7vw;
 	position: fixed;
 	margin:auto;
 	width:40vh;
@@ -233,12 +233,19 @@ transition: transform .4s;
 .chairDescription{
 }
 
-
+/*
 @media (max-device-width:750px){
 	main{
-	background-color: blue; 
+	background-color: blue;
 }
+
+.divider{
+	width:20vw;
 }
+
+}*/
+
+
 
 
 
