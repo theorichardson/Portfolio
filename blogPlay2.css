@@ -59,7 +59,7 @@ p{
 	padding:80px;
 	position: fixed;
 	margin:auto;
-	width:350px;
+	width:40vh;
 }
 
 
@@ -228,6 +228,16 @@ transition: transform .4s;
 
 .chairDescription{
 }
+
+
+@media (max-device-width:1000px){
+	main{
+	background-color: blue; 
+}
+}
+
+
+
 
 
 
