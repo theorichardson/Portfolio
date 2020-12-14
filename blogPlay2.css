@@ -43,8 +43,8 @@ p{
 	font-family: aktiv-grotesk, sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 5.5vh;
-	padding: 5vh;
+	font-size: 3vw;
+	padding: 3vh;
 
 }
 
@@ -68,6 +68,10 @@ p{
   margin-left: auto;
   margin-right: auto;
   max-width:40vh;
+}
+
+.divider1{
+	height:16vw; 
 }
 
 .space{
@@ -110,7 +114,7 @@ grid-template-columns:1fr 1fr;
 }
 
 .project img {
-	max-height:400px;
+	max-height:45.7vh;
 }
 
 
@@ -230,7 +234,7 @@ transition: transform .4s;
 }
 
 
-@media (max-device-width:1000px){
+@media (max-device-width:750px){
 	main{
 	background-color: blue; 
 }
