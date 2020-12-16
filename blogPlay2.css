@@ -137,8 +137,13 @@ grid-template-columns:1fr 1fr;
 		padding:50px;
 		width:43vh;
 		height:43vh;
-		margin-left:3vh;
-		margin-right:3vh;
+		margin: auto;
+}
+
+
+.grid:hover {
+	transform: scale(1.5);
+	cursor: pointer;
 }
 
 .grid-item {
@@ -164,10 +169,6 @@ transition: transform .4s;
 	z-index: 20;
 }
 
-.grid:hover {
-	transform: scale(1.5);
-	cursor: pointer;
-}
 
 .me{
 }
@@ -251,6 +252,20 @@ transition: transform .4s;
     body{
         background-color: red;
     }
+
+    main{
+    	overflow-x: 0;
+    	overscroll-behavior: none;
+    }
+
+    .projects{
+
+	display:flex;
+	flex-direction: column;
+	text-align: center;
+	grid-template-columns:1fr 1fr;
+	/*background-color:red;*/ 
+	}
 }
 
 
