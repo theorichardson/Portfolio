@@ -169,10 +169,6 @@ transition: transform .4s;
 	z-index: 20;
 }
 
-
-.me{
-}
-
 .xestoVideo{
 	display: block;
 	padding:auto;
@@ -256,8 +252,6 @@ transition: transform .4s;
     }
 
     main{
-    	overflow-x: 0;
-    	overscroll-behavior: none;
     }
 
     .logo{
@@ -267,15 +261,38 @@ transition: transform .4s;
     .projects{
 
 	display:flex;
+	width: 95vw;
 	flex-direction: column;
 	text-align: center;
 	grid-template-columns:1fr 1fr;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
 	/*background-color:red;*/ 
 	}
 
+	.project{
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	}
+
+	/* MAKE IT SO HOVERING ON GRID DOESNT ALLOW HORIZONTAL SCROLL
+
+	.grid-item:hover {
+	transform: scale(1.6);
+	cursor: pointer;
+	z-index: 20;
+}*/
+
 	.grid{
 		margin-top: 0vh;
-		margin-bottom: 10vh;
+		padding-bottom: 10vh;
+		width:43vh;
+		height:43vh;
+		margin: auto;
 	}
 
 	.thesis{
