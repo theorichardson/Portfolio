@@ -210,7 +210,7 @@ transition: transform .4s;
 
 
 
-						@media screen and (max-width: 800px) {
+						@media screen and (max-width: 1171px) {
 						    body{
 						        /*background-color: red;*/
 						    }
