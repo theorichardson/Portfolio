@@ -216,8 +216,8 @@ transition: transform .4s;
 						    }
 
 						    main{
-							overflow-x: 0;
-							overflow-y: 0;
+							/*overflow-x: 0;
+							overflow-y: 0;*/
 						    }
 
 						    .divider1{
