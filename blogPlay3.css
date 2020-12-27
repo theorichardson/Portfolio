@@ -87,17 +87,6 @@ p{
 	padding:40;
 }
 
-.titre{
-	padding:80px;
-	padding-bottom:0px;
-}
-
-.subtitre{
-	padding:80px;
-	padding-top:30px;
-	padding-bottom:0px;
-}
-
 .projects{
 
 display:flex;
@@ -167,6 +156,7 @@ transition: transform .4s;
 	cursor: pointer;
 	z-index: 20;
 }
+
 
 .xestoVideo{
 	display: block;
@@ -247,15 +237,11 @@ transition: transform .4s;
 						    .projects{
 
 							display:flex;
-							justify-content: center;
 							width: 95vw;
 							flex-direction: column;
 							text-align: center;
 							grid-template-columns:1fr 1fr;
-							margin-right: 0px;
-							margin-left: 0px;
-							padding-right: 0px;
-							padding-left: 0px;
+							margin:auto;
 							/*background-color:red;*/ 
 							}
 
@@ -285,7 +271,6 @@ transition: transform .4s;
 							.thesis{
 								padding-left: 0vh;
 								padding-right: 0vh;
-								max-width: 90%;
 							}
 
 
