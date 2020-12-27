@@ -224,7 +224,12 @@ transition: transform .4s;
 							height:20vh; 
 							}
 
-
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:40vh;
+}
 
 .logo img{
   display: block;
