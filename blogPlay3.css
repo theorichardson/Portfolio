@@ -117,12 +117,13 @@ grid-template-columns:1fr 1fr;
 
 
 .grid {
-		transform:scale(1.3);
+		transform:scale(1.2);
 		display: grid;
 		grid-template-columns: 25vh 25vh;
 		grid-template-rows: 25vh 25vh;
 		padding:5.7vh;
 		padding-right:9vh;
+		padding-bottom:17vh;
 		width:43vh;
 		height:43vh;
 		margin: auto;
@@ -138,6 +139,7 @@ grid-template-columns:1fr 1fr;
   /*border: 1px solid rgba(0, 0, 0, 0.8);*/
 position:relative;
 transition: transform .4s;
+text-align: center;
 }
 
 .grid-item img{
@@ -149,6 +151,7 @@ transition: transform .4s;
         left: 0;  
         right: 0;  
         margin: auto;
+        text-align: center;
 }
 
 .grid-item:hover {
