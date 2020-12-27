@@ -277,7 +277,7 @@ transition: transform .4s;
 													.images-grid{
 
 														display:grid;
-														width: 90%;
+														width: 90vw;
 														margin:auto;
 														text-align: center;
 													}
