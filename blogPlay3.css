@@ -168,8 +168,9 @@ transition: transform .4s;
 .xestoVideo{
 	display: block;
 	padding:auto;
-	margin:0 auto;
-	width:350px;
+	margin:auto;
+	width:40vh;
+	text-align: center;
 }
 
 
@@ -213,6 +214,10 @@ transition: transform .4s;
 						    main{
 							overflow-x: 0px;
 						    }
+
+						    .divider1{
+							height:20vh; 
+							}
 
 						    .logo{
 						    	z-index: 100;
@@ -267,7 +272,8 @@ transition: transform .4s;
 													.images-grid{
 
 														display:grid;
-														width:60vw;
+														/*width:60vw;*/
+														max-width: 100%;
 														margin:auto;
 														text-align: center;
 													}
