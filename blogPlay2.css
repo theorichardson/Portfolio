@@ -254,6 +254,7 @@ transition: transform .4s;
 						    }
 
 						    main{
+							overflow-x: 0px;
 						    }
 
 						    .logo{
@@ -300,6 +301,8 @@ transition: transform .4s;
 
 							.thesis{
 								padding-left: 0vh;
+								padding-right: 0vh;
+								max-width: 90%;
 							}
 
 
