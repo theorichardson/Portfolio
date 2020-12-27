@@ -68,6 +68,7 @@ p{
 	position: fixed;
 	margin:auto;
 	width:40vh;
+	z-index: 200;
 }
 
 
@@ -76,7 +77,6 @@ p{
   margin-left: auto;
   margin-right: auto;
   width:40vh;
-  z-index: 200;
 }
 
 .divider1{
@@ -132,7 +132,8 @@ grid-template-columns:1fr 1fr;
 		display: grid;
 		grid-template-columns: 25vh 25vh;
 		grid-template-rows: 25vh 25vh;
-		padding:50px;
+		padding:5.7vh;
+		padding-right:9vh;
 		width:43vh;
 		height:43vh;
 		margin: auto;
@@ -184,11 +185,10 @@ transition: transform .4s;
 
 .images-grid{
 	display:grid;
-	width:60vw;
+	width:60%;
 	margin:auto;
 	text-align: center;
 }
-
 
 
 .rotation img{
@@ -216,14 +216,15 @@ transition: transform .4s;
 						    }
 
 						    main{
-							overflow-x: 0px;
+							overflow-x: 0;
+							overflow-y: 0;
 						    }
 
 						    .divider1{
 							height:20vh; 
 							}
 
-						    .logo{
+						    .logo img{
 						    	z-index: 100;
 						    	width:50vw;
 						    }
@@ -277,7 +278,7 @@ transition: transform .4s;
 
 														display:grid;
 														/*width:60vw;*/
-														max-width: 100%;
+														width: 90%;
 														margin:auto;
 														text-align: center;
 													}
@@ -289,6 +290,7 @@ transition: transform .4s;
 													        text-align: center;
 													        object-fit: cover;
 													}
+
 
 													
 
