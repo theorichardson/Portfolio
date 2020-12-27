@@ -219,9 +219,9 @@ text-align: center;
 
 .logo {
   display: block;
-  margin-left: auto;
+  margin-left: 7vw;
   margin-right: auto;
-  width:40vh;
+  width:45vw;
 }
 
 .logo img{
