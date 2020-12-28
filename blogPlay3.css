@@ -168,12 +168,16 @@ text-align: center;
 }
 
 
-.xestoVideo{
+.xestoVideo {
 	display: block;
 	padding:auto;
 	margin:auto;
 	width:40vh;
 	text-align: center;
+}
+
+.xestoVideo video{
+	height:90vh;
 }
 
 
