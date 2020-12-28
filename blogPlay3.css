@@ -96,7 +96,6 @@ grid-template-columns:1fr 1fr;
 
 .project {
   padding: 0px;
-
   margin-left:3.4vh;
   margin-right:3.4vh;
 
@@ -196,6 +195,29 @@ text-align: center;
 .me{
 	margin-right: 0px;
 	padding-right: 0px;
+}
+
+.meDescription{
+	margin-top: -2vw;
+}
+
+.gallery{
+	display: flex;
+	margin:auto;
+	padding: 4vh;
+	padding-bottom: 0vh;	
+}
+
+.photosOfMe{
+/*background-color: green;*/
+  width: 400px;
+  height:400px;
+  text-align: center;
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+}
+
+.photosOfMe img{
+height:22vw;
 }
 
 
