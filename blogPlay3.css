@@ -84,7 +84,11 @@ p{
 }
 
 .divider2{
-	height:12vh; 
+	height:-5vh; 
+}
+
+.divider3{
+	height:10vh; 
 }
 
 .space{
@@ -256,6 +260,10 @@ height:22vw;
 						    }
 
 						    .divider1{
+							height:15vh; 
+							}
+
+							.divider2{
 							height:15vh; 
 							}
 
