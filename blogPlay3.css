@@ -356,6 +356,19 @@ height:22vw;
 													}
 
 
+
+.xestoVideo {
+	display: block;
+	padding:auto;
+	margin:auto;
+	text-align: center;
+}
+
+.xestoVideo video{
+	height:90vh;
+}
+
+
 													
 
 
