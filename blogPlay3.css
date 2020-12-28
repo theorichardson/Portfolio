@@ -243,6 +243,7 @@ text-align: center;
 							width: 95vw;
 							flex-direction: column;
 							text-align: center;
+							align-content: center;
 							grid-template-columns:1fr 1fr;
 							margin:auto;
 							/*background-color:red;*/ 
