@@ -83,6 +83,10 @@ p{
 	height:30vh; 
 }
 
+.divider2{
+	height:12vh; 
+}
+
 .space{
 	padding:40;
 }
@@ -218,6 +222,22 @@ text-align: center;
 
 .photosOfMe img{
 height:22vw;
+}
+
+
+
+
+
+.wholePage {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.wholePage img{
+	height: 100%;
+	width:100%;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 
