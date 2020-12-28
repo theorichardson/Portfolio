@@ -64,10 +64,10 @@ p{
 }*/
 
 .logo{
-	padding:4.7vw;
+	padding:80px;
 	position: fixed;
 	margin:auto;
-	width:40vh;
+	width:350px;
 	z-index: 200;
 }
 
@@ -76,7 +76,7 @@ p{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:20.8vw;
+  width:350px;
 }
 
 .divider1{
@@ -123,7 +123,7 @@ grid-template-columns:1fr 1fr;
 		grid-template-rows: 25vh 25vh;
 		padding:5.7vh;
 		padding-right:9vh;
-		padding-bottom:17vh;
+		/*padding-bottom:17vh;*/
 		width:43vh;
 		height:43vh;
 		margin: auto;
@@ -221,14 +221,14 @@ text-align: center;
   display: block;
   margin-left: 7vw;
   margin-right: auto;
-  width:50vw;
+  width:40vw;
 }
 
 .logo img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:50vw;
+  width:40vw;
 }
 
 
@@ -251,6 +251,7 @@ text-align: center;
 
 							.project{
 							text-align:center;
+							align-content: center;
 							margin-right: 0px;
 							margin-left: 0px;
 							padding-right: 0px;
