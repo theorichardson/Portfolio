@@ -362,10 +362,11 @@ height:22vw;
 	padding:auto;
 	margin:auto;
 	text-align: center;
+	object-fit: scale-down;
 }
 
 .xestoVideo video{
-	height:90vh;
+	height:80vh;
 	margin:auto;
 }
 
