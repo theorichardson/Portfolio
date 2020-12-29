@@ -1,4 +1,5 @@
 
+/*-----MASTER-----*/
 
 main{
 	overflow-x: 0;
@@ -95,6 +96,10 @@ p{
 	padding:40;
 }
 
+
+
+/*----HOME----*/
+
 .projects{
 
 display:flex;
@@ -122,53 +127,56 @@ grid-template-columns:1fr 1fr;
 	max-height:45.7vh;
 }
 
+				/*----SUB GRID----*/
+				.grid {
+						transform:scale(1.2);
+						display: grid;
+						grid-template-columns: 25vh 25vh;
+						grid-template-rows: 25vh 25vh;
+						padding:5.7vh;
+						padding-right:9vh;
+						/*padding-bottom:17vh;*/
+						width:43vh;
+						height:43vh;
+						margin: auto;
+						margin-bottom: 2vw;
+				}
 
-.grid {
-		transform:scale(1.2);
-		display: grid;
-		grid-template-columns: 25vh 25vh;
-		grid-template-rows: 25vh 25vh;
-		padding:5.7vh;
-		padding-right:9vh;
-		/*padding-bottom:17vh;*/
-		width:43vh;
-		height:43vh;
-		margin: auto;
-		margin-bottom: 2vw;
-}
+
+				.grid:hover {
+					transform: scale(1.5);
+					cursor: pointer;
+				}
+
+				.grid-item {
+				  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+				position:relative;
+				transition: transform .4s;
+				text-align: center;
+				/*border:1px solid blue;*/
+				}
+
+				.grid-item img{
+				        max-height: 100%;  
+				        max-width: 100%; 
+				        position: absolute;  
+				        top: 0;  
+				        bottom: 0;  
+				        left: 0;  
+				        right: 0;  
+				        margin: auto;
+				        text-align: center;
+				}
+
+				.grid-item:hover {
+					transform: scale(1.6);
+					cursor: pointer;
+					z-index: 20;
+				}
 
 
-.grid:hover {
-	transform: scale(1.5);
-	cursor: pointer;
-}
 
-.grid-item {
-  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
-position:relative;
-transition: transform .4s;
-text-align: center;
-/*border:1px solid blue;*/
-}
-
-.grid-item img{
-        max-height: 100%;  
-        max-width: 100%; 
-        position: absolute;  
-        top: 0;  
-        bottom: 0;  
-        left: 0;  
-        right: 0;  
-        margin: auto;
-        text-align: center;
-}
-
-.grid-item:hover {
-	transform: scale(1.6);
-	cursor: pointer;
-	z-index: 20;
-}
-
+/*-----XESTO-----*/
 
 .xestoVideo {
 	display: block;
@@ -187,7 +195,7 @@ text-align: center;
 
 
 
-
+/*------GENERATIVE CHAIRS-----*/
 
 .images-grid{
 	display:grid;
@@ -205,6 +213,9 @@ text-align: center;
         object-fit: cover;
 }
 
+
+
+/*------PROFILE-----*/
 
 .me{
 	margin-right: 0px;
@@ -236,6 +247,8 @@ height:22vw;
 
 
 
+/*------UBER EATS AR-----*/
+
 .wholePage {
 	padding-bottom: 0px;
 	margin-bottom: 0px;
@@ -246,6 +259,21 @@ height:22vw;
 	width:100%;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
+}
+
+
+
+
+/*APPLE GAMING*/
+
+.ads{
+	display:flex;
+	/*column-gap: 1vw;*/
+	text-align: center;
+}
+
+.ads img{
+	width:49.5vw;
 }
 
 
