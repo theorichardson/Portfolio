@@ -195,7 +195,7 @@ grid-template-columns:1fr 1fr;
 
 
 
-/*------GENERATIVE CHAIRS-----*/
+/*------GENERATIVE CHAIRS-----
 
 .images-grid{
 	display:grid;
@@ -211,7 +211,20 @@ grid-template-columns:1fr 1fr;
         margin: auto;
         align-content: center;
         object-fit: cover;
+}*/
+
+
+.images-grid{
+	display:flex;
+	/*column-gap: 1vw;*/
+	text-align: center;
+	width:100vw;
 }
+
+.images-grid img{
+	width:49.5vw;
+}
+
 
 
 
@@ -275,7 +288,21 @@ height:22vw;
 
 .ads img{
 	width:49.5vw;
-	height: 100%;
+}
+
+
+
+
+/*XESTO LOGO*/
+
+.xestoLogo{
+	display:flex;
+	/*column-gap: 1vw;*/
+	text-align: center;
+}
+
+.xestoLogo img{
+	width:49.5vw;
 }
 
 
@@ -426,6 +453,21 @@ div#thirdOne   {-webkit-order: 4;}
 div#fourthOne  {-webkit-order: 3;}
 div#fifthOne   {-webkit-order: 5;}
 div#sixthOne   {-webkit-order: 6;}
+
+
+/*XESTO LOGO*/
+
+.xestoLogo{
+	display:flex;
+	flex-direction: column;
+	/*column-gap: 1vw;*/
+	text-align: center;
+	width:100%;
+}
+
+.xestoLogo img{
+	width:100vw;
+}
 													
 
 
