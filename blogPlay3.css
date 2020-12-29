@@ -275,7 +275,10 @@ height:22vw;
 
 .ads img{
 	width:49.5vw;
+	height: 100%;
 }
+
+
 
 
 
@@ -394,6 +397,22 @@ height:22vw;
 .xestoVideo video{
 	height:80vh;
 	margin:auto;
+}
+
+
+
+/*APPLE GAMING*/
+
+.ads{
+	display:flex;
+	flex-direction: column;
+	/*column-gap: 1vw;*/
+	text-align: center;
+	width:100%;
+}
+
+.ads img{
+	width:100vw;
 }
 
 
