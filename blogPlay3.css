@@ -227,6 +227,7 @@ grid-template-columns:1fr 1fr;
 }
 
 .gallery{
+	height:400px;
 	display: flex;
 	margin:auto;
 	padding: 4vh;
