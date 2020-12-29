@@ -416,19 +416,18 @@ height:22vw;
 }
 
 
+div#firstOne   {-webkit-order: 1;}
+div#secondOne  {-webkit-order: 2;}
+div#thirdOne   {-webkit-order: 4;}
+div#fourthOne  {-webkit-order: 3;}
+div#fifthOne   {-webkit-order: 5;}
+div#sixthOne   {-webkit-order: 6;}
 													
 
 
 
 
-
-
 }
-
-
-
-
-
 
 
 
