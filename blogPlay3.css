@@ -261,10 +261,6 @@ height:22vw;
 							overflow-y: 0;*/
 						    }
 
-						    .projects{
-						    	background-color: red;
-						    }
-
 						    .divider1{
 							height:15vh; 
 							}
@@ -274,7 +270,7 @@ height:22vw;
 							}
 
 .logo {
-  width:500px;
+  width:40vw;
   padding:80px;
 }
 
@@ -290,19 +286,19 @@ height:22vw;
 
 						    .projects{
 
+
 							display:flex;
 							width: 95vw;
 							flex-direction: column;
-							text-align: center;
-							align-content: center;
-							grid-template-columns:1fr 1fr;
-							margin:auto;
 							/*background-color:red;*/ 
+							justify-content: center;
+							margin-left: 15vw;
+							/*padding-left: 9vw;*/
+
 							}
 
 							.project{
 							text-align:center;
-							align-content: center;
 							margin-right: 0px;
 							margin-left: 0px;
 							padding-right: 0px;
