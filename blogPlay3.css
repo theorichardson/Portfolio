@@ -134,6 +134,7 @@ grid-template-columns:1fr 1fr;
 		width:43vh;
 		height:43vh;
 		margin: auto;
+		margin-bottom: 2vw;
 }
 
 
@@ -147,6 +148,7 @@ grid-template-columns:1fr 1fr;
 position:relative;
 transition: transform .4s;
 text-align: center;
+/*border:1px solid blue;*/
 }
 
 .grid-item img{
