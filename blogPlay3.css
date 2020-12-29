@@ -190,6 +190,7 @@ grid-template-columns:1fr 1fr;
 	margin:auto;
 	width:40vh;
 	text-align: center;
+	-webkit-appearance:none;
 }
 
 .xestoVideo video{
