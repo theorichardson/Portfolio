@@ -218,11 +218,14 @@ grid-template-columns:1fr 1fr;
 	display:flex;
 	/*column-gap: 1vw;*/
 	text-align: center;
-	width:100vw;
+	width:100%;
+	justify-content: center;
+	padding: 0px;
+	margin: 0px;
 }
 
 .images-grid img{
-	width:49.5vw;
+	width:49vw;
 }
 
 
