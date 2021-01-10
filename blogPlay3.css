@@ -370,15 +370,20 @@ height:22vw;
 
 						    .projects{
 
-
 							display:flex;
-							width: 95vw;
+							width: 100%;
 							flex-direction: column;
 							/*background-color:red;*/ 
 							justify-content: center;
-							margin-left: 15vw;
-							/*padding-left: 9vw;*/
+							/*margin-left: 15vw;
+							padding-left: 9vw;*/
 
+							overflow-x: hidden;
+							}
+
+
+							.projects img{
+								object-fit: contain;
 							}
 
 							.project{
