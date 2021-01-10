@@ -301,6 +301,36 @@ height:22vw;
 
 
 
+/*PAGES*/
+
+
+.bigPic{
+
+  display:flex;
+  /*grid-gap: 4vw;*/
+  text-align: center;
+
+  width:60%;
+  text-align: left;
+  padding: 2vw;
+  padding-top: 0px;
+  margin:auto;
+  margin-top:5vw;
+}
+
+.bigPic img{
+  width:20vw;
+  padding-right:4vw;
+}
+
+.description img{
+  width:3.3vw;
+  padding-right:1vw;
+}
+
+
+
+
 /*APPLE GAMING*/
 
 .ads{
