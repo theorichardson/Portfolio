@@ -210,7 +210,19 @@ grid-template-columns:1fr 1fr;
 	height:90vh;
 }
 
+/*-----Maps-----*/
 
+.maps{
+	display:flex;
+	flex-direction: column;
+	width:99vw;
+
+	text-align: center;
+}
+
+.maps img{
+	width:80vw;
+}
 
 
 
